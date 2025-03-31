@@ -1,3 +1,5 @@
+/* DEFAULT */
+
 .navbar-custom {
     background-color: #ffffff !important;
     z-index: 3;
@@ -116,4 +118,69 @@ h2 {
     font-size: 1.4rem;
     font-weight: 500;
     font-style: italic;
+}
+
+
+
+/* HOME */
+html, body {
+    background-image: url("images/PA120884.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the background image covers the entire div */
+    background-position: center; /* Centers the background image */
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Ensures the body takes full height */
+    width: 100%;
+}
+
+h1 {
+    font-family: "Boldonse", system-ui;
+    letter-spacing: 0.08rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.8);
+    
+    width: 80%;  /* Adjust as needed */
+    
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+p {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.05rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.8);
+    
+    width: 80%;  /* Adjust as needed */
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+span {
+    color: transparent;
+}
+
+.footer {
+    color: white;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;  /* Prevents line breaks */
+    text-align: center;   /* Ensures text is centered */
+    width: max-content;   /* Ensures it only takes up the necessary width */
 }

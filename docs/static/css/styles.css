@@ -1,0 +1,119 @@
+.navbar-custom {
+    background-color: #ffffff !important;
+    z-index: 3;
+}
+
+.navbar-brand-custom {
+    font-family: "Boldonse", system-ui;
+    letter-spacing: 0.08rem;
+    transition: 0.3s;
+    font-style: normal;
+}
+
+.navbar-brand-custom:hover {
+    color:pink
+}
+
+@supports (background-clip: text) or (-webkit-background-clip: text) {
+    .navbar-brand-custom {
+    background-size: cover;
+    background-position: center;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+  }    
+}
+
+.content {
+    flex: 1;
+}
+
+a {
+    color: black;
+    font-style: italic;
+    text-decoration-thickness: 0.01rem;
+    transition: 0.2s;
+    font-size: larger;
+}
+
+a:hover {
+    color: pink;
+}
+
+.link-btn {
+    display: inline-block;
+    padding: 1rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    background-color: rgb(139, 168, 189);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border-style:groove;
+}
+
+.link-btn:hover {
+    color: pink;
+}
+
+.footer {
+    background-color: transparent !important;
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.05rem;
+    padding: 20px;
+    color: black;
+}
+
+
+.navbar-toggler:hover .dropdown .cls-1 {
+    fill: pink; /* Changes fill on hover */
+    opacity: 1;
+}
+
+.navbar-toggler:focus {
+    outline: none; /* Remove the default outline */
+    border: 2px solid #c8c8c845; /* Custom border color and thickness */
+    box-shadow: 0 0 5px rgba(202, 202, 202, 0.497); /* Optional shadow effect */
+}
+
+.navbar-nav .nav-link {
+    font-family: "Poiret One", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 1.2rem;
+    margin-right: 1.5rem;
+    letter-spacing: 0.08rem;
+    color: rgb(0, 0, 0);
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: pink;
+}
+
+.navbar .nav-link.active {
+    text-decoration: double !important;
+    font-size: 1.5rem !important;
+}
+
+body {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: 0.05rem;
+}
+    
+h1 {
+    font-size: 2rem;
+    font-weight:800;
+}
+
+h2 {
+    font-size: 1.4rem;
+    font-weight: 500;
+    font-style: italic;
+}
